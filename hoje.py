@@ -12,3 +12,12 @@ def saudacao(nome, saudar="Bom dia!"):
 
 saudacao("Maria")
 saudacao("Bob", "Boa noite!")
+
+
+num = int(input("Digite um número: "))
+def parImpar(num):
+    if num % 2 == 0:
+        print(f"{num} é par")
+    else:
+        print(f"{num} é ímpar.")
+parImpar(num)
